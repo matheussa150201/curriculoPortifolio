@@ -1,0 +1,56 @@
+.navBarPortCurr {
+  background: transparent
+    linear-gradient(
+      90deg,
+      var(---e1173f-brand-primary) 0%,
+      #ffffff 20%,
+      #e6e6e6 36%,
+      #b1b1b1 50%,
+      #7c7c7c 62%,
+      #6d6d6d 71%,
+      #696869 78%,
+      #555555 83%,
+      #4b4b4b 88%,
+      #4d4d4d 91%,
+      #4e4e4e 93%,
+      #3f3f3f 95%,
+      #414141 96%,
+      #302f2f 98%,
+      #222222 100%
+    )
+    0% 0% no-repeat padding-box;
+  background: transparent
+    linear-gradient(
+      90deg,
+      #ffffff 20%,
+      #e6e6e6 36%,
+      #b1b1b1 50%,
+      #7c7c7c 62%,
+      #6d6d6d 71%,
+      #696869 78%,
+      #555555 83%,
+      #4b4b4b 88%,
+      #4d4d4d 91%,
+      #4e4e4e 93%,
+      #3f3f3f 95%,
+      #414141 96%,
+      #302f2f 98%,
+      #222222 100%
+    )
+    0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+
+.labelCurriculo {
+  margin-left: 1100px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+
+.labelPortfolio {
+  margin-left: 50px;
+}
