@@ -1,0 +1,69 @@
+.navBarInfo {
+  position: fixed;
+  display: flex;
+  margin-left: 60%;
+  margin-top: 20px;
+  color: #00b8e4;
+  text-align: center;
+  top: 100px;
+  width: 250px;
+  line-height: 30px;
+  height: 30px;
+}
+
+.navBarLabel {
+  margin-left: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.navBarLabel:hover {
+  color: rgb(255, 255, 255);
+}
+
+.imgFundoPortifolio {
+  position: absolute;
+  width: 98.7vw;
+  height: 90vh;
+}
+
+.imgPreta {
+  opacity: 0.7;
+}
+
+.imgPretaNavBar {
+  position: fixed;
+  width: 98.7vw;
+  height: 15vh;
+  opacity: 0.8;
+}
+
+.icons {
+  margin-top: -5px;
+}
+
+.InformacoesIniciais {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  top: 250px;
+  left: 150px;
+}
+
+.nome {
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  font-family: initial;
+}
+
+.infoLabel {
+  color: #00b8e4;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.navBarIn {
+  margin-left: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: -5px;
+}

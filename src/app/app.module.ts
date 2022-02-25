@@ -1,3 +1,8 @@
+import { NavBarFlutuanteComponent } from './../components/navBarFlutuante/navBarFlutuante.component';
+import { ContatoComponent } from './../components/contato/contato.component';
+import { PortfolioCompComponent } from './../components/portfolioComp/portfolioComp.component';
+import { ServicosComponent } from './../components/servicos/servicos.component';
+import { HomeComponent } from './../components/home/home.component';
 import { PortfolioComponent } from './../pages/portfolio/portfolio.component';
 import { NavBarComponent } from './../components/navBar/navBar.component';
 import { NgModule } from '@angular/core';
@@ -12,13 +17,15 @@ import { CurriculoComponent } from 'src/pages/curriculo/curriculo.component';
     AppComponent,
     NavBarComponent,
     PortfolioComponent,
-    CurriculoComponent
+    CurriculoComponent,
+    HomeComponent,
+    ServicosComponent,
+    PortfolioCompComponent,
+    ContatoComponent,
+    NavBarFlutuanteComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
