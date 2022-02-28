@@ -1,14 +1,13 @@
-.contato {
+.contatoAvaliacao {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
 }
 
 .labelTitulo {
-  margin-left: 45%;
+  margin-left: 38%;
 }
 
 .InformacoesIniciais {
-  margin-left: 12%;
   margin-top: 5%;
 }
 
@@ -26,6 +25,61 @@
 
 .infoLabelBlue {
   color: #00b8e4;
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 25px;
+  font-family: initial;
+}
+
+.labelInputNome {
+  margin-left: 3%;
+}
+
+.inputAvaliacao {
+  margin-left: 12%;
+  margin-top: 5%;
+}
+
+.label {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.estrelas {
+  margin-left: 630px;
+  margin-top: -27px;
+}
+
+.estrelas input[type="radio"] {
+  display: none;
+}
+.estrelas label i.fa:before {
+  content: "\f005";
+  color: #fc0;
+}
+.estrelas input[type="radio"]:checked ~ label i.fa:before {
+  color: #ccc;
+}
+
+.contato {
+  margin-top: 5%;
+}
+
+.labelTituloAvaliacao {
+  margin-left: 45%;
+}
+
+.infoLabelBlueAvaliacao {
+  margin-left: 12%;
+  margin-top: 5%;
+}
+
+.btnEnviar {
+  margin-left: 740px;
+  margin-top: -50px;
+  height: 30px;
+  font-size: 12px;
+}
+
+.infoLabelConversa {
+  font-size: 25px;
+  font-family: initial;
 }

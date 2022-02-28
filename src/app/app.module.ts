@@ -11,6 +11,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CurriculoComponent } from 'src/pages/curriculo/curriculo.component';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ import { CurriculoComponent } from 'src/pages/curriculo/curriculo.component';
     ContatoComponent,
     NavBarFlutuanteComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, MatInputModule],
   providers: [],
   bootstrap: [AppComponent],
 })

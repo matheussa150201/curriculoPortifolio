@@ -15,10 +15,9 @@
   position: fixed;
   display: flex;
   margin-left: 60%;
-  margin-top: 20px;
   color: #00b8e4;
   text-align: center;
-  top: 100px;
+  top: 53px;
   width: 250px;
   line-height: 30px;
   height: 30px;
@@ -46,4 +45,13 @@
 .itens {
   display: flex;
   position: relative;
+  margin-left: -40px;
+}
+
+.navBarCurriculo {
+  margin-left: -800px;
+}
+
+.navBarPor {
+  margin-left: -800px;
 }
